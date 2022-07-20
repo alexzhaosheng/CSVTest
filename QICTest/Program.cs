@@ -9,13 +9,14 @@ namespace QICTest
 {
 
     //This solution uses a "heavy" way to deal with CSV for test purpose.
-    //In the real case, with the given requirements, we should deal CSV with several simple lines of code.
+    //In the real case, with the given requirements, we should deal with CSV with several simple lines of code.
     //If there comes more requirements, we can refactor the current code to add more features.
 
-    //This solution is just for the relative smaller amount of the data. If we have a huge number of data, it's much more complex.
+
+    //This solution is just for the relatively smaller amount of the data. If we have a huge amount of data, it's much more complicated.
     //We may be able to use the idea of radix sort to get the median number, here is how:
-    //1. Check the top bit of the numbers, if 0 is more, then median number is started with 0
-    //2. Check the 2nd top bit of the numbers, if 0 is more, then median number is started with 00
+    //1. Check the top bit of the numbers, if 0 is more, then the median number is started with 0
+    //2. Check the 2nd top bit of the numbers, if 0 is more, then the median number is started with 00
     //3. Repeat until the whole median number is found out.
 
     class Program
