@@ -3,3 +3,9 @@
 ################################################################################
 
 /packages
+/.vs/QICTest/v16
+/QICTest/bin/Debug
+/QICTest/obj/Debug
+*.user
+/QICTest.Test/bin/Debug
+/QICTest.Test/obj/Debug
